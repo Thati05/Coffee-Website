@@ -1,0 +1,141 @@
+.product__secion {
+  display: flex;
+  flex-direction: column;
+
+
+
+
+
+}
+
+.product__title {
+  display: flex;
+  justify-content: center;
+
+  font-family: var(--plus-lato);
+  font-weight: bolder;
+
+  text-transform: capitalize;
+}
+
+.product__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+  gap: 50px;
+  margin-left: 100px;
+  color: rgba(0, 0, 0, 0.63);
+  transition: color 0.5s;
+}
+
+.product-info {
+  font-family: var(--plus-lato);
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+
+  border-right: 1px solid rgba(0, 0, 0, 0.16);
+  padding-right: 70px;
+
+  line-height: 30px;
+}
+
+.good__title {
+  width: 200px;
+}
+
+.cakes {
+  border: none;
+}
+
+.product-info h4:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.product-info p {
+  font-size: 14px;
+}
+
+.product-info h4 {
+  font-size: 16px;
+}
+
+.product__small-container {
+  background-color: #eeeff14e;
+  justify-content: center;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  padding: 64px 0;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+
+}
+
+.product__card {
+  background-color: white;
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.product__img {
+  width: 300px;
+  height: 280px;
+  transition: .4s;
+  object-fit: contain;
+
+}
+
+.product__shape {
+  background-color: #EEEFF1;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+
+}
+
+.products__data {
+  padding: 20px 0 20px 25px;
+  position: relative;
+  font-family: var(--plus-lato);
+  line-height: 30px;
+}
+
+.products__data h4 {
+  font-size: 20px;
+}
+
+.products__data p {
+  font-size: 16px;
+}
+
+.product__button {
+  background-color: black;
+  padding: 15px;
+  display: inline-flex;
+
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  position: absolute;
+
+  right: 8px;
+  top: -25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
+
+}
+
+.product__button img {
+  width: 20px;
+}
+
+.product__card:hover .product__img {
+  transform: translateY(-10px);
+}

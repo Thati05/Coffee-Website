@@ -1,0 +1,43 @@
+.banner {
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 30px;
+
+  padding-right: 0px;
+
+
+}
+
+.banner__container {
+  flex-direction: row;
+
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.banner-img img {
+  width: 400px;
+  display: flex;
+  object-fit: contain;
+}
+
+.banner_info {
+  text-align: left;
+  font-family: var(--plus-lato);
+
+}
+
+.banner_info h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.banner_info p {
+  font-size: 18px;
+  margin-bottom: 20px;
+
+  line-height: 30px;
+  padding: 20px 0;
+}
